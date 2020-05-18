@@ -1,3 +1,7 @@
+#Author pixal-sama a.k.a Rakshat Kashyap
+#created on 17-05-2020
+#use this bot, that wishes birthdays of facebook and then mail you if there were birthdays or not, and also who had their birthday today, quite a handy and cool thing right
+
 #Importing the required libraries, make sure to install them first also make sure to download the driver according to your browser,unless using firefox, I am using chrome here so I assume that you got chrome too,else any browser will work just download the correct driver
 from selenium import webdriver
 import time, credentials, bs4, re, smtplib # time, re and smtplib are preinstalled, still check all the required libraries before running the porgram

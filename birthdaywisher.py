@@ -7,7 +7,7 @@
 #Importing the required libraries, make sure to install them first also make sure to download the driver according to your browser,unless using firefox, I am using chrome here so I assume that you got chrome too,else any browser will work just download the correct driver
 from selenium import webdriver
 from datetime import datetime
-import os, time, credentials, bs4, re, smtplib # os, time, re and smtplib are preinstalled, still check all the required libraries before running the porgram
+import os, time, re, smtplib # os, time, re and smtplib are preinstalled, still check all the required libraries before running the porgram
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from email.mime.text import MIMEText

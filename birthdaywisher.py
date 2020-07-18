@@ -51,9 +51,9 @@ e_mail = browser.find_element_by_xpath('//*[@id="email"]')
 pa_ss = browser.find_element_by_xpath('//*[@id="pass"]')
 
 #pass
-e_mail.send_keys('rakkas0302@gmail.com')
+e_mail.send_keys('XXXX')  # Fill your facebook email here
 time.sleep(1)
-pa_ss.send_keys('wrtlightandenergy')
+pa_ss.send_keys('XXXX')  # Fill your facebook password here
 time.sleep(1)
 pa_ss.send_keys(Keys.ENTER)
 time.sleep(7)
@@ -94,7 +94,7 @@ if len(names):
 		time.sleep(3)
 		message_box = browser.find_element_by_xpath('//*[@id="mount_0_0"]/div/div/div[5]/div[1]/div[1]/div[1]/div/div/div[1]/div/div/div/div[2]/div/div[2]/form/div/div[3]/div[2]/div[1]/div/div/div/div/div[2]/div/div/div/div')
 		message_box.click()
-		message_box.send_keys('Happy Birthday Bro')
+		message_box.send_keys('Happy Birthday')
 		message_box.send_keys(Keys.ENTER)
 		time.sleep(1)
 		name = name.replace(' ', '_')
